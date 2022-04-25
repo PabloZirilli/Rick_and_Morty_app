@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../imgs/background_02.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    background-size: inherit;
+}
+.logo-image {
+    width: 300px !important;
+    display: block;
+    object-fit: contain;
+    margin-bottom: 5%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+/* Card */
+.card-title {
+    flex: 1 1 auto;
+    padding: 1rem 0 !important;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 0 !important;
+}
+
+.card {
+    background-color: #ffffffe3 !important;
+}
+
+
+.list-group-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.list-group-item {
+    background-color: #fff0 !important;
+}
+.green {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+@media screen and (max-width: 480px) {
+    .logo-image {
+        width: 100% !important;
+        max-width: 320px !important;
+        display: block;
+    }
+}
+
+
+
